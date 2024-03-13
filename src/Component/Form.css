@@ -1,0 +1,40 @@
+.form-container{
+    margin: 100px auto;
+    width: 700px;
+    box-shadow: 0 5px 7px black;
+    border-radius: 10px;
+    height: 500px;
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+}
+
+.form-horizontal >h1{
+    width: 80%;
+    padding: 20px;
+    text-align: start;
+}
+
+.form-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-inputs >p{
+    color: red;
+    margin-top: 0.5 rem;
+    font-size: 1rem;
+}
+
+.form-btn{
+    width: 80%;
+}
